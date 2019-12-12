@@ -2,7 +2,7 @@
 * @Author: JJIXI
 * @Date:   2019-12-09 22:37:38
 * @Last Modified by:   JJIXI
-* @Last Modified time: 2019-12-12 20:47:09
+* @Last Modified time: 2019-12-12 21:21:58
 */
 var box = document.getElementById('box');
 var oNavlist = document.getElementById('nav').children;
@@ -22,7 +22,7 @@ function roll(){
 	if (wen.style.left== "-380px") {
 		wen.style.left="1200px";
 	}else{
-			wen.style.left = now -5+"px";
+			wen.style.left = now -1+"px";
 	}
 }
 var	time = setInterval(roll, 30);
