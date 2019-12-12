@@ -1,0 +1,107 @@
+/*
+* @Author: JJIXI
+* @Date:   2019-12-09 22:21:24
+* @Last Modified by:   JJIXI
+* @Last Modified time: 2019-12-12 20:47:48
+*/
+*{
+	padding: 0;
+	margin: 0;
+}
+ul,li{
+	list-style: none; 
+}
+.head{
+	background-color: gray;
+	width: 100%;
+	height: 18px;
+}
+.headline{
+	width: 1200px;
+	height: 18px;
+	margin: 0 auto;
+	position: relative;
+}
+.headline>img{
+	position: absolute;
+	left: 84px;
+	
+}
+.w{
+	width: 1000px;
+	height: 18px;
+	position: relative;
+	overflow: hidden;
+	margin:0 auto;
+}
+.wen{
+	color: red;
+	width: 420px;
+	height: 18px;
+	position: absolute;
+	font-size: 14px;
+	left: 1200px;
+	display: inline-block;
+}
+
+.wen>span{
+	width: 420px;
+	position: relative;
+	overflow: hidden;
+}
+.box{
+	width: 1200px;
+	height: 397px;
+	margin: 100px auto;
+	position: relative;
+	overflow: hidden;
+}
+.slider{
+	width: 8400px;
+	position: absolute;
+	left: -1200px;
+}
+.slide{
+	width: 1200px;
+	overflow: hidden;
+	float: left;
+}
+.box>span{
+	display:block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	color:     ;
+	top: 175px;
+	line-height: 50px;
+	background: rgb(255, 0, 0);
+	font-size: 30px;
+	position: absolute;
+	opacity: 0;
+}
+#left{
+	left: 30px;
+}
+#right{
+	right: 30px;
+}
+.nav{
+	position: absolute;
+	left: 500px;
+	bottom: 20px;
+}
+.nav>li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: #ccc;
+	cursor: pointer;
+	margin: 0 10px ;
+	text-align: center;
+	border-radius: 50%;
+}
+.nav .active{
+	background: red;
+	color: white;
+}
