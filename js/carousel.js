@@ -2,7 +2,7 @@
 * @Author: JJIXI
 * @Date:   2019-12-09 22:37:38
 * @Last Modified by:   JJIXI
-* @Last Modified time: 2019-12-12 21:21:58
+* @Last Modified time: 2019-12-13 18:19:51
 */
 var box = document.getElementById('box');
 var oNavlist = document.getElementById('nav').children;
@@ -10,12 +10,9 @@ var slider = document.getElementById('slider');
 var left = document.getElementById('left');
 var right = document.getElementById('right');
 var wen = document.getElementById('wen');
-// var li =document.getElementsByTagName('li');
 var index = 1;
 var timer;
 var isMoving = false;
-// li.onclick=li.style.color='white';
-
 //滚动字幕
 function roll(){
 	var now = parseInt(getStyle(wen, "left"));
@@ -53,11 +50,14 @@ function prev(){
 			slider.style.left = -1200*5+"px";
 			index = 5;
 		}
+		isMoving = false;
 	});
 
 }
 
 var timer = setInterval(next,3000);
+//var ti = setInterval(prev, 3000);
+
  //鼠标划入清定时器
 box.onmouseover = function(){
 	animate(left,{opacity:50});//左箭头

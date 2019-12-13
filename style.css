@@ -2,7 +2,7 @@
 * @Author: JJIXI
 * @Date:   2019-12-09 22:21:24
 * @Last Modified by:   JJIXI
-* @Last Modified time: 2019-12-12 20:47:48
+* @Last Modified time: 2019-12-13 18:25:37
 */
 *{
 	padding: 0;
@@ -40,7 +40,7 @@ ul,li{
 	height: 18px;
 	position: absolute;
 	font-size: 14px;
-	left: 1200px;
+	left: 1000px;
 	display: inline-block;
 }
 
